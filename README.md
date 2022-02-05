@@ -17,3 +17,6 @@ General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+## Changes
+Replaced `ghostview` with `zathura` to view output. At some point it would be nice to make this configurable.

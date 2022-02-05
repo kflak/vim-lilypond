@@ -44,7 +44,7 @@ noremap <buffer> <F4> :w<Return>:setl makeprg=lilypond\ \"%<\"<Return>:make<Retu
 noremap <buffer> <F5> :w<Return>:setl makeprg=lilypond\ \"%<\"<Return>:make<Return>
 "
 " <F6>  view pdf with ghostview
-noremap <buffer> <F6> :!gv --watch "%<.pdf" &<Return>
+noremap <buffer> <F6> :!zathura "%<.pdf" &<Return>
 "
 " <F7>  prev error
 noremap <buffer> <F7> :cp<Return>
